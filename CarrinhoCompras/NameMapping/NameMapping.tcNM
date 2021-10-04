@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{F64605EB-992D-4285-AB6A-137AB455C415}">
+				<TypeInfo Item0="{1975520C-BB01-479E-822F-8B00F64ACBBE}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4A278E5D-949F-4D4F-9F16-5610A81C8B87}">
+						<TypeInfo Item0="{2594700F-60D2-40A9-B3D9-2ACFEF8840EA}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLojaebacEbaconlineArtBrCarri" Key="{CC000614-CEEC-4B10-9879-65BB24056391}">
+								<Image FileName="1045580550" Left="8" Top="111" Right="1608" Bottom="868" />
+								<TypeInfo Item0="{058CA06F-3A4C-4F71-9850-18672C471E68}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://lojaebac.ebaconline.art.br/carrinho/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionMainContainer" Key="{498EFF3B-045F-4116-A418-892954DF77DF}">
+										<Image FileName="1045580550" Left="200" Top="474" Right="1400" Bottom="1171" />
+										<TypeInfo Item0="{CF37A1A8-864F-43ED-954F-E6D9A150D705}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Aero Daily Fitness Tee - XL, Yellow&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbay-main-content&apos;]/section[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelImage" Key="{DC599CA9-FC6A-4F51-A507-0142FCD3444E}">
+										<Image FileName="1045580550" Left="200" Top="530" Right="1400" Bottom="1171" />
+										<TypeInfo Item0="{CF37A1A8-864F-43ED-954F-E6D9A150D705}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@id=&apos;main&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//main/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{FAF9F2A6-2E5A-4D6A-B320-FDDAF9376348}">
+								<Image FileName="903066228" Left="-8" Top="-8" Right="1608" Bottom="868" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageEbacShopPGinaDeTeste" Key="{DC4AB5FF-100A-48CD-8B4C-D37EC36FD949}">
+								<Image FileName="903066228" Left="0" Top="103" Right="1600" Bottom="860" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://lojaebac.ebaconline.art.br/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerTbayHeader" Key="{DFBDE19B-EBD9-46A4-9CC8-7DFE0837E098}">
+										<Image FileName="903066228" Left="0" Top="103" Right="1583" Bottom="251" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tbay-header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;site-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navHome" Key="{042E39B0-DF75-4C78-BEB9-DB49586ED8CD}">
+										<Image FileName="903066228" Left="494" Top="119" Right="1060" Bottom="174" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header/div/div/div/nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;tbay-megamenu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div/div/div/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeComprar" Key="{2CC181B2-8343-41FE-A9D5-D8ACA2846384}">
+										<Image FileName="903066228" Left="593" Top="119" Right="712" Bottom="174" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header//nav//ul/li[contains(@class, &apos;menu-item-629&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;primary-menu&apos;]/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div/nav/div/ul/li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkComprar" Key="{588D98EB-9C9E-42F6-ACE6-E31B9076F028}">
+										<Image FileName="903066228" Left="593" Top="119" Right="712" Bottom="174" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;tbay-header&apos;]//div/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//nav/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLojaebacEbaconlineArtBrProdu" Key="{389A25E6-ED0F-4EB8-836E-8A29F27D2723}">
+								<Image FileName="903066228" Left="0" Top="103" Right="1600" Bottom="860" />
+								<TypeInfo Item0="{57C6B792-9F74-417B-AD6D-11BDF2FC11C9}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://lojaebac.ebaconline.art.br/produtos/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionMainContainer" Key="{B178C875-C4FF-46B1-9780-111984897B58}">
+										<Image FileName="1448060205" Left="192" Top="466" Right="1392" Bottom="2020" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Ordenar por preço: menor para maior&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;main-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbay-main-content&apos;]/section[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="figureVerOpEs" Key="{2C765280-9B72-41BC-894D-F9E576BACAFA}">
+										<Image FileName="1448060205" Left="543" Top="614" Right="770" Bottom="918" />
+										<Selectors>
+											<Selector>
+												<Value Value="//figure[contains(., &apos;Ver opções&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//figure[contains(@class, &apos;image&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//div/div/div/figure" />
+											</Selector>
+											<Selector>
+												<Value Value="//figure" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAbominableHoodie" Key="{C6DB2A66-AAE7-448A-ADE5-573744798C7B}">
+										<Image FileName="1448060205" Left="543" Top="617" Right="770" Bottom="634" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Abominable Hoodie&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//figure/a[contains(@class, &apos;product-image&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//div[2]//figure/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//figure/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="image05" Key="{7F66ACD3-B460-4E65-B654-17C51A00E0C8}">
+										<Image FileName="1448060205" Left="543" Top="614" Right="770" Bottom="905" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//figure/a/img[contains(@class, &apos;attachment-shop_catalog&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;abominable-hoodie&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//figure/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="figureVerOpEs2" Key="{ED36DE44-0967-462E-A404-671E06FF6281}">
+										<Image FileName="-384846102" Left="828" Top="614" Right="1055" Bottom="918" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/figure[contains(@class, &apos;image&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//div[2]/div/div/figure" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/figure" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAeroDailyFitnessTee" Key="{7951ECE7-E079-420E-AEFD-F6EA5A4A0A6D}">
+										<Image FileName="-384846102" Left="828" Top="617" Right="1055" Bottom="634" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&apos;Aero Daily Fitness Tee&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/figure/a[contains(@class, &apos;product-image&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//div[2]//div[2]//figure/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/figure/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="image052" Key="{C39CF7D0-3758-464B-9D3D-AD76D924F992}">
+										<Image FileName="-384846102" Left="828" Top="614" Right="1055" Bottom="905" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/figure/a/img[contains(@class, &apos;attachment-shop_catalog&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;aero-daily-fitness-tee&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/figure/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLojaebacEbaconlineArtBrProdu2" Key="{F74A6435-185C-4DF7-BB16-07F371BD0669}">
+								<Image FileName="903066228" Left="0" Top="103" Right="1600" Bottom="860" />
+								<TypeInfo Item0="{57C6B792-9F74-417B-AD6D-11BDF2FC11C9}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://lojaebac.ebaconline.art.br/product/abominable-hoodie/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionMainContainer" Key="{6793C108-8FA4-42C3-B803-D5B6BC694C47}">
+										<Image FileName="699136470" Left="192" Top="466" Right="1392" Bottom="1435" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;This is a variable product called a Abominable Hoodie&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;main-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbay-main-content&apos;]/section[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSize" Key="{80FBD061-669D-4637-B745-5F8C490C83AE}">
+										<Image FileName="699136470" Left="690" Top="632" Right="1357" Bottom="864" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Size&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;abominable-hoodie&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;variations_form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//div[3]/div/div/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeXs" Key="{0C2943F9-5EA4-4517-940D-DBCD42EB2BF2}">
+										<Image FileName="699136470" Left="790" Top="663" Right="1041" Bottom="701" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;XS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@aria-label=&apos;Size&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/ul[@role=&apos;radiogroup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/ul[contains(@class, &apos;variable-items-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//tr/td/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeXl" Key="{F9B63536-49EC-4E89-AAA6-3E662EB1CDC1}">
+										<Image FileName="699136470" Left="992" Top="667" Right="1041" Bottom="697" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;XL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;XL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;button-variable-item-XL&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//li[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/ul/li[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBlue" Key="{CCCD7877-5227-44CA-BE6B-6D3B39A3CF42}">
+										<Image FileName="1550709660" Left="790" Top="702" Right="999" Bottom="740" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Blue&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@aria-label=&apos;Color&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul[@role=&apos;radiogroup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul[contains(@class, &apos;variable-items-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//tr[2]/td/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRed" Key="{9BCA8E9D-56DF-48A7-A372-A534B4C7272F}">
+										<Image FileName="1550709660" Left="941" Top="706" Right="999" Bottom="736" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Red&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;Red&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;button-variable-item-Red&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//tr[2]/td/ul/li[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonComprar" Key="{2A4A80E2-6174-4014-8E3A-E2EB7880B864}">
+										<Image FileName="1511702702" Left="801" Top="788" Right="937" Bottom="838" />
+										<TypeInfo Item0="{15761CAD-097E-4158-AFE3-FF9517E6AF79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Comprar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;single_add_to_cart_button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerTbayHeader" Key="{3236ECE9-A9E6-4906-8410-062CE3E339B8}">
+										<Image FileName="572135356" Left="0" Top="103" Right="1583" Bottom="374" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tbay-header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Cart :&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@role=&apos;banner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;site-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionTbayMainmenu" Key="{5AC03AFD-EA52-4905-9FDB-BF186C44FE8C}">
+										<Image FileName="572135356" Left="0" Top="326" Right="1583" Bottom="374" />
+										<Selectors>
+											<Selector>
+												<Value Value="#tbay-mainmenu" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;All Categories&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;tbay-mainmenu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;tbay-header&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeComprar" Key="{0A18D937-1724-428C-A74C-E6308E8B263D}">
+										<Image FileName="572135356" Left="571" Top="326" Right="675" Bottom="374" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/header/section//nav//ul/li[contains(@class, &apos;menu-item-629&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;primary-menu&apos;]/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/nav/div/ul/li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkComprar" Key="{39B62C2E-2164-4720-A2E9-A89373D8175B}">
+										<Image FileName="572135356" Left="571" Top="326" Right="675" Bottom="374" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section/div/nav/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLojaebacEbaconlineArtBrProdu3" Key="{E5C04DBD-AB86-4824-AE72-65EA7F1803F7}">
+								<Image FileName="903066228" Left="0" Top="103" Right="1600" Bottom="860" />
+								<TypeInfo Item0="{57C6B792-9F74-417B-AD6D-11BDF2FC11C9}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://lojaebac.ebaconline.art.br/product/aero-daily-fitness-tee/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionMainContainer" Key="{B6C73441-C2E7-435A-987A-A184DB8FAAAB}">
+										<Image FileName="1585908700" Left="192" Top="466" Right="1392" Bottom="1372" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;This is a variable product called a Aero Daily Fitness Tee&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;main-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbay-main-content&apos;]/section[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSize" Key="{7FCC741D-2DE9-4FA9-9B22-978D242FC18C}">
+										<Image FileName="1585908700" Left="690" Top="632" Right="1357" Bottom="864" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Size&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;aero-daily-fitness-tee&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;variations_form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//div[3]/div/div/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeXs" Key="{59CCF398-E04E-4D76-8F49-EBE901865561}">
+										<Image FileName="1585908700" Left="790" Top="663" Right="1041" Bottom="701" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;XS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@aria-label=&apos;Size&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/ul[@role=&apos;radiogroup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/ul[contains(@class, &apos;variable-items-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//tr/td/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeXl" Key="{BD597454-28D7-42E0-8F81-F3DD3F2AAEB1}">
+										<Image FileName="1585908700" Left="992" Top="667" Right="1041" Bottom="697" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;XL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;XL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;button-variable-item-XL&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//li[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/ul/li[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBlack" Key="{6102805A-0B73-498E-9449-29E2925B3BD3}">
+										<Image FileName="-730234665" Left="790" Top="702" Right="1028" Bottom="740" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Black&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@aria-label=&apos;Color&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul[@role=&apos;radiogroup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul[contains(@class, &apos;variable-items-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//tr[2]/td/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYellow" Key="{08F0FCA2-76C2-4001-AC06-FA8361408531}">
+										<Image FileName="-730234665" Left="951" Top="706" Right="1028" Bottom="736" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Yellow&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;Yellow&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;button-variable-item-Yellow&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//tr[2]/td/ul/li[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonComprar" Key="{5AB3BE5C-6B61-4F96-92F1-9B09AF130926}">
+										<Image FileName="396591047" Left="801" Top="788" Right="937" Bottom="838" />
+										<TypeInfo Item0="{15761CAD-097E-4158-AFE3-FF9517E6AF79}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Comprar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;single_add_to_cart_button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionMainContainer2" Key="{A7912639-1A8D-46DE-A38A-215C15948A3A}">
+										<Image FileName="-244057593" Left="192" Top="466" Right="1392" Bottom="1638" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Ver carrinho&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;main-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tbay-main-content&apos;]/section[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkVerCarrinho" Key="{F08380A7-7C1C-4FA5-82B2-40CDD86C7E8F}">
+										<Image FileName="-244057593" Left="1161" Top="483" Right="1348" Bottom="525" />
+										<TypeInfo Item0="{CE8F450A-DFE6-4477-BE64-F4AD0DB87E5F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Ver carrinho&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//a[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4A278E5D-949F-4D4F-9F16-5610A81C8B87}">
+			<Child Name="pageLojaebacEbaconlineArtBrCarri" Owner="{CC000614-CEEC-4B10-9879-65BB24056391}">
+				<Child Name="sectionMainContainer" Owner="{498EFF3B-045F-4116-A418-892954DF77DF}">
+					<Child Name="panelImage" Owner="{DC599CA9-FC6A-4F51-A507-0142FCD3444E}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{FAF9F2A6-2E5A-4D6A-B320-FDDAF9376348}" />
+			<Child Name="pageEbacShopPGinaDeTeste" Owner="{DC4AB5FF-100A-48CD-8B4C-D37EC36FD949}">
+				<Child Name="headerTbayHeader" Owner="{DFBDE19B-EBD9-46A4-9CC8-7DFE0837E098}">
+					<Child Name="navHome" Owner="{042E39B0-DF75-4C78-BEB9-DB49586ED8CD}">
+						<Child Name="textnodeComprar" Owner="{2CC181B2-8343-41FE-A9D5-D8ACA2846384}">
+							<Child Name="linkComprar" Owner="{588D98EB-9C9E-42F6-ACE6-E31B9076F028}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLojaebacEbaconlineArtBrProdu" Owner="{389A25E6-ED0F-4EB8-836E-8A29F27D2723}">
+				<Child Name="sectionMainContainer" Owner="{B178C875-C4FF-46B1-9780-111984897B58}">
+					<Child Name="figureVerOpEs" Owner="{2C765280-9B72-41BC-894D-F9E576BACAFA}">
+						<Child Name="linkAbominableHoodie" Owner="{C6DB2A66-AAE7-448A-ADE5-573744798C7B}">
+							<Child Name="image05" Owner="{7F66ACD3-B460-4E65-B654-17C51A00E0C8}" />
+						</Child>
+					</Child>
+					<Child Name="figureVerOpEs2" Owner="{ED36DE44-0967-462E-A404-671E06FF6281}">
+						<Child Name="linkAeroDailyFitnessTee" Owner="{7951ECE7-E079-420E-AEFD-F6EA5A4A0A6D}">
+							<Child Name="image052" Owner="{C39CF7D0-3758-464B-9D3D-AD76D924F992}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLojaebacEbaconlineArtBrProdu2" Owner="{F74A6435-185C-4DF7-BB16-07F371BD0669}">
+				<Child Name="sectionMainContainer" Owner="{6793C108-8FA4-42C3-B803-D5B6BC694C47}">
+					<Child Name="formSize" Owner="{80FBD061-669D-4637-B745-5F8C490C83AE}">
+						<Child Name="textnodeXs" Owner="{0C2943F9-5EA4-4517-940D-DBCD42EB2BF2}">
+							<Child Name="textnodeXl" Owner="{F9B63536-49EC-4E89-AAA6-3E662EB1CDC1}" />
+						</Child>
+						<Child Name="textnodeBlue" Owner="{CCCD7877-5227-44CA-BE6B-6D3B39A3CF42}">
+							<Child Name="textnodeRed" Owner="{9BCA8E9D-56DF-48A7-A372-A534B4C7272F}" />
+						</Child>
+						<Child Name="buttonComprar" Owner="{2A4A80E2-6174-4014-8E3A-E2EB7880B864}" />
+					</Child>
+				</Child>
+				<Child Name="headerTbayHeader" Owner="{3236ECE9-A9E6-4906-8410-062CE3E339B8}">
+					<Child Name="sectionTbayMainmenu" Owner="{5AC03AFD-EA52-4905-9FDB-BF186C44FE8C}">
+						<Child Name="textnodeComprar" Owner="{0A18D937-1724-428C-A74C-E6308E8B263D}">
+							<Child Name="linkComprar" Owner="{39B62C2E-2164-4720-A2E9-A89373D8175B}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLojaebacEbaconlineArtBrProdu3" Owner="{E5C04DBD-AB86-4824-AE72-65EA7F1803F7}">
+				<Child Name="sectionMainContainer" Owner="{B6C73441-C2E7-435A-987A-A184DB8FAAAB}">
+					<Child Name="formSize" Owner="{7FCC741D-2DE9-4FA9-9B22-978D242FC18C}">
+						<Child Name="textnodeXs" Owner="{59CCF398-E04E-4D76-8F49-EBE901865561}">
+							<Child Name="textnodeXl" Owner="{BD597454-28D7-42E0-8F81-F3DD3F2AAEB1}" />
+						</Child>
+						<Child Name="textnodeBlack" Owner="{6102805A-0B73-498E-9449-29E2925B3BD3}">
+							<Child Name="textnodeYellow" Owner="{08F0FCA2-76C2-4001-AC06-FA8361408531}" />
+						</Child>
+						<Child Name="buttonComprar" Owner="{5AB3BE5C-6B61-4F96-92F1-9B09AF130926}" />
+					</Child>
+				</Child>
+				<Child Name="sectionMainContainer2" Owner="{A7912639-1A8D-46DE-A38A-215C15948A3A}">
+					<Child Name="linkVerCarrinho" Owner="{F08380A7-7C1C-4FA5-82B2-40CDD86C7E8F}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

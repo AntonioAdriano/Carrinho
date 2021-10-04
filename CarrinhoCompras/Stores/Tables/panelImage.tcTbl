@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="14.0">
+	<Table Name="panelImage">
+		<Source Object="Aliases.browser.pageLojaebacEbaconlineArtBrCarri.FindElement(&quot;//main[@id=&apos;main&apos;]/div&quot;)">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="Automatic" SelectionPreference="NearestToCenter" HasHeader="True" />
+		</Source>
+		<Columns>
+			<Column>Product</Column>
+			<Column>Price</Column>
+			<Column>Quantity</Column>
+			<Column>Total</Column>
+			<Column>Remove</Column>
+		</Columns>
+		<Rows SpecifedRowsCount="2">
+			<Row>
+				<Cell Type="String">Abominable Hoodie - XL, Red</Cell>
+				<Cell Type="String">R$69,00</Cell>
+				<Cell Type="String">1 +</Cell>
+				<Cell Type="String">R$69,00</Cell>
+				<Cell Type="String"></Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Aero Daily Fitness Tee - XL, Yellow</Cell>
+				<Cell Type="String">R$24,00</Cell>
+				<Cell Type="String">- 1 +</Cell>
+				<Cell Type="String">R R 24,00 R$24,00</Cell>
+				<Cell Type="String">画</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{D9386BDF-7B25-4355-BCA9-2884FA2E839E}">
+	<children>
+		<child name="CarrinhoCompras" key="{84162103-038A-467C-BB94-E853372405E9}" path="CarrinhoCompras\CarrinhoCompras.mds" />
+	</children>
+	<testItems key="{EE160CD6-00A8-4273-A38F-3DAFC1028D17}">
+		<children>
+			<testItem key="{84162103-038A-467C-BB94-E853372405E9}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{4817577F-325E-449C-BAA6-08BC471F15EB}" />
+	<analysis key="{5F66A54C-16C6-4A55-AD9B-1B0D66A7C114}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
